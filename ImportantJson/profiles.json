@@ -1,0 +1,12 @@
+{"_id":{"$oid":"5c80d0d9cd151b22e40b455a"},"type":"node","describe":"学习node原生知识","income":"node fs http ","expend":"http创建服务","cash":"node学习","remark":"学习node原生知识，已经忘得差不多了","date":{"$date":"2019-03-07T08:05:45.157Z"},"__v":0}
+{"_id":{"$oid":"5c88d22287e1b906e043c742"},"type":"java","describe":"java衡变erp项目","income":"swing+mybatis+Spring","expend":"无","cash":"衡变erp项目开发","remark":"需要重新学习！！！！","date":{"$date":"2019-03-13T09:49:22.328Z"},"__v":0}
+{"_id":{"$oid":"5c88d3a987e1b906e043c743"},"type":"vue","describe":"vue全家桶","income":"Vuex+axios+router","expend":"axios封装","cash":"自己的项目计划","remark":"vuex加入types，封装axios在请求头加入Token，router添加路由守卫，没有登录的状态下跳转到登录页面!!","date":{"$date":"2019-03-13T09:55:53.765Z"},"__v":0}
+{"_id":{"$oid":"5c90878a00a96a01fcf4b5db"},"type":"java","describe":"1","income":"1","expend":"1","cash":"1","date":{"$date":"2019-03-19T06:09:14.191Z"},"__v":0,"remark":"21"}
+{"_id":{"$oid":"5c90879900a96a01fcf4b5dc"},"type":"vue","describe":"er","income":"er","expend":"tr","cash":"ttr","remark":"rt","date":{"$date":"2019-03-19T06:09:29.777Z"},"__v":0}
+{"_id":{"$oid":"5c9087a400a96a01fcf4b5dd"},"type":"node+vue","describe":"re","income":"e","expend":"e","cash":"ee","remark":"e","date":{"$date":"2019-03-19T06:09:40.025Z"},"__v":0}
+{"_id":{"$oid":"5c9087b300a96a01fcf4b5de"},"type":"jquer+sweetui+echarts","describe":"r","income":"r","expend":"reet","cash":"erttw","date":{"$date":"2019-03-19T06:09:55.629Z"},"__v":0,"remark":"ert"}
+{"_id":{"$oid":"5c9087c500a96a01fcf4b5df"},"type":"sqlORnoSql","describe":"ert","income":"er","expend":"ewrt","cash":"wret","date":{"$date":"2019-03-19T06:10:13.461Z"},"__v":0}
+{"_id":{"$oid":"5c9087d800a96a01fcf4b5e0"},"type":"H5","describe":"wert","income":"wrt","expend":"w","cash":"wwt","remark":"t","date":{"$date":"2019-03-19T06:10:32.872Z"},"__v":0}
+{"_id":{"$oid":"5c90961300a96a01fcf4b5e1"},"type":"node","describe":"dsf","income":"dsf","expend":"asdf","cash":"sdaf","remark":"ds","date":{"$date":"2019-03-19T07:11:15.138Z"},"__v":0}
+{"_id":{"$oid":"5c90961b00a96a01fcf4b5e2"},"type":"jquer+sweetui+echarts","describe":"dsf","income":"asdf","expend":"asdf","cash":"adfs","date":{"$date":"2019-03-19T07:11:23.243Z"},"__v":0}
+{"_id":{"$oid":"5c90962400a96a01fcf4b5e3"},"type":"javaWeb","describe":"sdf","income":"sdaf","expend":"asdf","cash":"asdf","remark":"afs","date":{"$date":"2019-03-19T07:11:32.055Z"},"__v":0}

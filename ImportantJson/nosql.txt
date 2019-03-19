@@ -1,0 +1,11 @@
+ 
+mongod --dvpath D:\mongo //启动数据库
+mongoimport --db haha --collection info --drop --file /c/Users/Administrator/Desktop/goods.json  //导入json
+mongoexport -h 192.168.1.40:27017 -d vuedemo -c users -o /c/Users/Administrator/Desktop/users.json  //导出 将vuedemo数据库下的表user导出到桌面为user.json
+
+db.getCollection('info').find({})//查找全部
+db.getCollection('info').find({'age':{$gt:10}})//age大于10的
+db.getCollection('info').find({'score.yuwen':{$lt:100}})//查询所有语文小于100
+db.getCollection('info').find({$or:[{'score.yuwen':{$gt:90}},{'score.shuxue':{$gt:79}}]})//查询语文成绩大于90或者数学成绩大约79的学生
+db.getCollection('student').find({}).limit(2).skip(3)  //显示2条数据略过前3条数据
+db.getCollection('student').stats().count //总数据  666
