@@ -16,6 +16,13 @@
                   <i class="fa fa-cog"></i>
                   <span>{{user.identity=='employee'? '员工':'管理员'}}</span>
                </div>
+               <div class="user-item">
+                  <i style="font-size:22px">个性签名:</i>
+                  <span>{{sign}}</span>
+                  <br>
+                  <i style="font-size:22px">签名时间:</i>
+                  <span>{{signTime|formatDate('yyyy-MM-dd hh:mm:ss')}}</span>
+               </div>
             </div>
          </el-col>
       </el-row>
@@ -27,6 +34,12 @@ export default {
    computed:{
       user(){
          return this.$store.getters.user
+      },
+      sign(){
+         return this.$store.getters.sign
+      },
+      signTime(){
+         return this.$store.getters.signTime
       }
    }
 }

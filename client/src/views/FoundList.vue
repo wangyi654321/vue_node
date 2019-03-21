@@ -47,7 +47,7 @@
                     sortable>
                     <template slot-scope="scope">
                         <el-icon name="time"></el-icon>
-                        <span style="margin-left: 10px">{{ scope.row.date }}</span>
+                        <span style="margin-left: 10px">{{ scope.row.date|formatDate('yyyy-MM-dd hh:mm:ss')}}</span>
                     </template>
                 </el-table-column>
                 <el-table-column
