@@ -21,7 +21,7 @@
                   <span>{{sign}}</span>
                   <br>
                   <i style="font-size:22px">签名时间:</i>
-                  <span>{{signTime|formatDate('yyyy-MM-dd hh:mm:ss')}}</span>
+                  <span>{{signTime|formatDate}}</span>
                </div>
             </div>
          </el-col>
